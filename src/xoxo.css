@@ -1,0 +1,20 @@
+.container {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.board {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  font-size: 3em;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 0.6em 0.2em;
+}
