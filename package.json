@@ -2,14 +2,13 @@
   "name": "react-error-pages",
   "version": "1.0.0",
   "description": "errors pages for react",
-  "main": "index.js",
+  "main": "/src/index.tsx",
   "scripts": {
-  "build": "webpack"
-}
-,
+    "build": "webpack"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -17,6 +16,7 @@
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
     "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "babel-loader": "^9.1.3",
