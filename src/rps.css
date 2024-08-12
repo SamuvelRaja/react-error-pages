@@ -21,6 +21,19 @@
 }
 .rps-gamescreen{
     min-height: 280px;
+    display: flex;
+    align-items: center;
+}
+.rps-results{
+    display: inline-flex;
+    align-items: center;
+}
+.rps-gamescreen img{
+    max-width: 159px;
+}
+.rps-gamescreen .rps-cpuhand img{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 .rps-outer{
     max-width: 320px;
