@@ -1,0 +1,47 @@
+.rps-actions{
+    display:flex;
+    justify-content: space-around;
+    padding: 16px 4px;
+}
+.rps-actions img{
+    width: 56px;
+    height: 56px;
+}
+
+.rps-actions div{
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+    border-radius: 999px;
+}
+.rps-points{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 24px;
+}
+.rps-gamescreen{
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+}
+.rps-results{
+    display: inline-flex;
+    align-items: center;
+}
+.rps-gamescreen img{
+    max-width: 159px;
+}
+.rps-gamescreen .rps-cpuhand img{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.rps-outer{
+    max-width: 320px;
+    margin: 0 auto;
+    border:1px solid black ;
+    border-radius: 24px;
+    padding: 8px;
+}
+.rps-display{
+    border:0.5px solid gray;
+}
